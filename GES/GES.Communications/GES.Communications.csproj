@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBB715DD-D050-4052-9261-658ACF01AF06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GES.Communications</RootNamespace>
+    <AssemblyName>GES.Communications</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\SystemLibrary\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\SystemLibrary\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SystemLibrary\Release\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SystemLibrary\Release\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GES.TimeSystems, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SystemLibrary\Release\GES.TimeSystems.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\MessageExtractor.cs" />
+    <Compile Include="Interfaces\SerialPort.cs" />
+    <Compile Include="Interfaces\SocketTransceiver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protocols\CCSDS\CCSDSPrimaryHeader.cs" />
+    <Compile Include="Protocols\CCSDS\CCSDSTelemetry.cs" />
+    <Compile Include="Protocols\CCSDS\CCSDSPacketSerializer.cs" />
+    <Compile Include="Protocols\CCSDS\CCSDSCommand.cs" />
+    <Compile Include="Serialization\Table.cs" />
+    <Compile Include="Serialization\TimeSequenceSerializer.cs" />
+    <Compile Include="Serialization\TableSerializer.cs" />
+    <Compile Include="Serialization\TableDefinition.cs" />
+    <Compile Include="Serialization\Checksums.cs" />
+    <Compile Include="Serialization\ITelemetry.cs" />
+    <Compile Include="Serialization\ICommand.cs" />
+    <Compile Include="Protocols\CCSDS\CCSDSPacket.cs" />
+    <Compile Include="Protocols\CCSDS\CCSDSPacketDefinition.cs" />
+    <Compile Include="Serialization\CommandSequence.cs" />
+    <Compile Include="Serialization\BitStream.cs" />
+    <Compile Include="Serialization\ByteOrder.cs" />
+    <Compile Include="Serialization\DataAttributes.cs" />
+    <Compile Include="Serialization\ObjectExtensions.cs" />
+    <Compile Include="Serialization\Serializer.cs" />
+    <Compile Include="Serialization\SerializerBase.cs" />
+    <Compile Include="Serialization\SerializerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serialization\SerializerDialog.Designer.cs">
+      <DependentUpon>SerializerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serialization\SerializerUITypeEditor.cs" />
+    <Compile Include="Tasks\TelemetryTask.cs" />
+    <Compile Include="Tasks\CommandTask.cs" />
+    <Compile Include="Tasks\Task.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Serialization\SerializerDialog.resx">
+      <DependentUpon>SerializerDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

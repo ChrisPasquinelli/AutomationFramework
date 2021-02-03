@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GES.Communications", "GES\GES.Communications\GES.Communications.csproj", "{FBB715DD-D050-4052-9261-658ACF01AF06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemLibrary", "SystemLibrary", "{80B540E5-7A2C-494A-83C0-2DA1DC754E99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{61920958-85CB-4921-A7B9-6F88FE26977C}"
+	ProjectSection(SolutionItems) = preProject
+		SystemLibrary\Debug\Agents.dll = SystemLibrary\Debug\Agents.dll
+		SystemLibrary\Debug\Agents.pdb = SystemLibrary\Debug\Agents.pdb
+		SystemLibrary\Debug\App.config = SystemLibrary\Debug\App.config
+		SystemLibrary\Debug\AssemblyLoader.dll = SystemLibrary\Debug\AssemblyLoader.dll
+		SystemLibrary\Debug\AssemblyLoader.pdb = SystemLibrary\Debug\AssemblyLoader.pdb
+		SystemLibrary\Debug\AxInterop.Microsoft.Office.Interop.VisOcx.dll = SystemLibrary\Debug\AxInterop.Microsoft.Office.Interop.VisOcx.dll
+		SystemLibrary\Debug\Basic.vssx = SystemLibrary\Debug\Basic.vssx
+		SystemLibrary\Debug\Common.dll = SystemLibrary\Debug\Common.dll
+		SystemLibrary\Debug\Common.pdb = SystemLibrary\Debug\Common.pdb
+		SystemLibrary\Debug\ConsolePanel.config = SystemLibrary\Debug\ConsolePanel.config
+		SystemLibrary\Debug\Core.dll = SystemLibrary\Debug\Core.dll
+		SystemLibrary\Debug\Core.pdb = SystemLibrary\Debug\Core.pdb
+		SystemLibrary\Debug\Displays.dll = SystemLibrary\Debug\Displays.dll
+		SystemLibrary\Debug\Displays.pdb = SystemLibrary\Debug\Displays.pdb
+		SystemLibrary\Debug\EntityFramework.dll = SystemLibrary\Debug\EntityFramework.dll
+		SystemLibrary\Debug\EntityFramework.SqlServer.dll = SystemLibrary\Debug\EntityFramework.SqlServer.dll
+		SystemLibrary\Debug\EntityFramework.SqlServer.xml = SystemLibrary\Debug\EntityFramework.SqlServer.xml
+		SystemLibrary\Debug\EntityFramework.xml = SystemLibrary\Debug\EntityFramework.xml
+		SystemLibrary\Debug\finals2000A.txt = SystemLibrary\Debug\finals2000A.txt
+		SystemLibrary\Debug\GES.Communications.dll = SystemLibrary\Debug\GES.Communications.dll
+		SystemLibrary\Debug\GES.Communications.pdb = SystemLibrary\Debug\GES.Communications.pdb
+		SystemLibrary\Debug\GES.TimeSystems.dll = SystemLibrary\Debug\GES.TimeSystems.dll
+		SystemLibrary\Debug\GES.TimeSystems.pdb = SystemLibrary\Debug\GES.TimeSystems.pdb
+		SystemLibrary\Debug\license.txt = SystemLibrary\Debug\license.txt
+		SystemLibrary\Debug\Logic.dll = SystemLibrary\Debug\Logic.dll
+		SystemLibrary\Debug\Logic.pdb = SystemLibrary\Debug\Logic.pdb
+		SystemLibrary\Debug\Logic.vssx = SystemLibrary\Debug\Logic.vssx
+		SystemLibrary\Debug\Mathematics.dll = SystemLibrary\Debug\Mathematics.dll
+		SystemLibrary\Debug\Mathematics.dll.config = SystemLibrary\Debug\Mathematics.dll.config
+		SystemLibrary\Debug\Mathematics.pdb = SystemLibrary\Debug\Mathematics.pdb
+		SystemLibrary\Debug\Newtonsoft.Json.dll = SystemLibrary\Debug\Newtonsoft.Json.dll
+		SystemLibrary\Debug\Newtonsoft.Json.xml = SystemLibrary\Debug\Newtonsoft.Json.xml
+		SystemLibrary\Debug\stdole.dll = SystemLibrary\Debug\stdole.dll
+		SystemLibrary\Debug\SuperSocket.ClientEngine.dll = SystemLibrary\Debug\SuperSocket.ClientEngine.dll
+		SystemLibrary\Debug\SystemManager.exe = SystemLibrary\Debug\SystemManager.exe
+		SystemLibrary\Debug\SystemManager.exe.config = SystemLibrary\Debug\SystemManager.exe.config
+		SystemLibrary\Debug\SystemManager.pdb = SystemLibrary\Debug\SystemManager.pdb
+		SystemLibrary\Debug\tai-utc.dat = SystemLibrary\Debug\tai-utc.dat
+		SystemLibrary\Debug\template.vstx = SystemLibrary\Debug\template.vstx
+		SystemLibrary\Debug\Utilities.dll = SystemLibrary\Debug\Utilities.dll
+		SystemLibrary\Debug\Utilities.pdb = SystemLibrary\Debug\Utilities.pdb
+		SystemLibrary\Debug\VisioDrawingControl.dll = SystemLibrary\Debug\VisioDrawingControl.dll
+		SystemLibrary\Debug\VisioDrawingControl.pdb = SystemLibrary\Debug\VisioDrawingControl.pdb
+		SystemLibrary\Debug\WebSocket4Net.dll = SystemLibrary\Debug\WebSocket4Net.dll
+		SystemLibrary\Debug\WeifenLuo.WinFormsUI.Docking.dll = SystemLibrary\Debug\WeifenLuo.WinFormsUI.Docking.dll
+		SystemLibrary\Debug\WeifenLuo.WinFormsUI.Docking.pdb = SystemLibrary\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Debug|Xbox 360 = Debug|Xbox 360
+		Debug|Zune = Debug|Zune
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Release|Xbox 360 = Release|Xbox 360
+		Release|Zune = Release|Zune
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|ARM.Build.0 = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|x64.Build.0 = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|x86.Build.0 = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Xbox 360.ActiveCfg = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Xbox 360.Build.0 = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Zune.ActiveCfg = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Zune.Build.0 = Debug|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|ARM.Build.0 = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|x64.ActiveCfg = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|x64.Build.0 = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|x86.ActiveCfg = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|x86.Build.0 = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Xbox 360.ActiveCfg = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Xbox 360.Build.0 = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Zune.ActiveCfg = Release|Any CPU
+		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Zune.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61920958-85CB-4921-A7B9-6F88FE26977C} = {80B540E5-7A2C-494A-83C0-2DA1DC754E99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFC82231-995E-4AE9-977A-D95297072BCD}
+	EndGlobalSection
+EndGlobal
