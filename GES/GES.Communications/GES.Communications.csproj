@@ -31,17 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SystemLibrary\Release\Common.dll</HintPath>
+    <Reference Include="Common">
+      <HintPath>..\..\SystemLibrary\Debug\Common.dll</HintPath>
     </Reference>
-    <Reference Include="Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SystemLibrary\Release\Core.dll</HintPath>
+    <Reference Include="Core">
+      <HintPath>..\..\SystemLibrary\Debug\Core.dll</HintPath>
     </Reference>
-    <Reference Include="GES.TimeSystems, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SystemLibrary\Release\GES.TimeSystems.dll</HintPath>
+    <Reference Include="GES.TimeSystems">
+      <HintPath>..\..\SystemLibrary\Debug\GES.TimeSystems.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
