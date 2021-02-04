@@ -1,0 +1,64 @@
+SCHEMATIC: True, CommandUplink.vssx
+CONFIGURE: True, CommandUplink.cs
+INITIALIZE: True, CreateActive.cs
+INITIALIZE: True, CreateTransmitter.cs
+INITIALIZE: True, CreateCommandTask.cs
+INITIALIZE: True, CreateTelemetryOutputEnableCommand.cs
+INITIALIZE: True, CreateNETIFInitSocketCommand.cs
+INITIALIZE: True, CreateTableLoadCommand.cs
+INITIALIZE: True, CreateTableValidateCommand.cs
+INITIALIZE: True, CreateTableActivateCommand.cs
+INITIALIZE: True, CreateStartATSCommand.cs
+INITIALIZE: True, CreateReceiver.cs
+INITIALIZE: True, CreateTelemetryTask.cs
+INITIALIZE: True, CreateEventServicesHousekeepingTelemetery.cs
+INITIALIZE: True, CreateExecutiveServicesHousekeepingTelemetery.cs
+INITIALIZE_PART: CommandTask.TaskId
+INITIALIZE_PART: Transmitter.AddressOrHostName
+INITIALIZE_PART: Transmitter.Protocol
+INITIALIZE_PART: Transmitter.Port
+INITIALIZE_PART: Receiver.AddressOrHostName
+INITIALIZE_PART: Receiver.Port
+INITIALIZE_PART: Receiver.Protocol
+INITIALIZE_PART: Receiver.Verbose
+INITIALIZE_PART: Transmitter.Verbose
+INITIALIZE_PART: TelemetryTask.TaskId
+INITIALIZE_PART: ExecutiveServicesHousekeepingTelemetery.CFSTelemetryDefinition.PrimaryHeader.ApplicationId
+INITIALIZE_PART: EventServicesHousekeepingTelemetery.CFSTelemetryDefinition.PrimaryHeader.ApplicationId
+INITIALIZE_PART: TableLoadCommand.Filename
+INITIALIZE_PART: TableValidateCommand.TableValidateCommandData.ActiveTableFlag
+INITIALIZE_PART: TableValidateCommand.TableValidateCommandData.TableName
+INITIALIZE_PART: TableValidateCommand.TableValidateCommandData
+INITIALIZE_PART: TableActivateCommand.TableName
+INITIALIZE_PART: StartATSCommand.AtsId
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, TelemetryOutputEnableCommand.dll
+REFERENCE: True, CFSCommandDefinition.dll
+REFERENCE: True, EventServicesHousekeepingTelemetery.dll
+REFERENCE: True, CFSTelemetryDefinition.dll
+REFERENCE: True, TelemetrySecondaryHeader.dll
+REFERENCE: True, EventServicesHousekeepingTelemetreyData.dll
+REFERENCE: True, EventServicesApplicationTelemetryData.dll
+REFERENCE: True, ExecutiveServicesHousekeepingTelemetery.dll
+REFERENCE: True, ExecutiveServicesHousekeepingTelemetryData.dll
+REFERENCE: True, CommandSequence3.dll
+REFERENCE: True, NETIFInitSocketCommand.dll
+REFERENCE: True, NETIFInitSocketCommandData.dll
+REFERENCE: True, TableLoadCommand.dll
+REFERENCE: True, GES.TimeSystems.dll
+REFERENCE: True, TableValidateCommand.dll
+REFERENCE: True, TableValidateCommandData.dll
+REFERENCE: True, TableActivateCommand.dll
+REFERENCE: True, StartATSCommand.dll
+REFERENCE: True, CFSCommand.dll

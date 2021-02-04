@@ -1,0 +1,9 @@
+SCHEMATIC: True, CommandSecondaryHeader.vssx
+CONFIGURE: True, CommandSecondaryHeader.cs
+INITIALIZE: True, CreateFunctionCode.cs
+INITIALIZE: True, CreateChecksum.cs
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll

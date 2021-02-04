@@ -1,0 +1,27 @@
+SCHEMATIC: True, NETIFInitSocketCommand.vssx
+CONFIGURE: True, NETIFInitSocketCommand.cs
+INITIALIZE: True, CreateCCSDSCommand.cs
+INITIALIZE: True, CreateCFSCommandDefinition.cs
+INITIALIZE: True, CreateNETIFInitSocketCommandData.cs
+INITIALIZE_PART: CFSCommandDefinition.CommandSecondaryHeader.FunctionCode
+INITIALIZE_PART: CFSCommandDefinition.ApplicationDataAttributes
+INITIALIZE_PART: CFSCommandDefinition.PrimaryHeader
+INITIALIZE_PART: CFSCommandDefinition.XORChecksum.StopIndex
+INITIALIZE_PART: NETIFInitSocketCommandData.ServerPort
+INITIALIZE_PART: NETIFInitSocketCommandData.IPAddress
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, CFSCommandDefinition.dll
+REFERENCE: True, TelemetryOutputEnableCommand.dll
+REFERENCE: True, NETIFInitSocketCommandData.dll
+REFERENCE: True, GES.TimeSystems.dll

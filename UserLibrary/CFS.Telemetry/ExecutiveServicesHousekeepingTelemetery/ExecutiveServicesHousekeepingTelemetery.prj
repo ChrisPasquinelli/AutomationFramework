@@ -1,0 +1,28 @@
+SCHEMATIC: True, ExecutiveServicesHousekeepingTelemetery.vssx
+CONFIGURE: True, ExecutiveServicesHousekeepingTelemetery.cs
+INITIALIZE: True, CreateCCSDSTelemetry.cs
+INITIALIZE: True, CreateCFSTelemetryDefinition.cs
+INITIALIZE: True, CreateESHousekeepingTelemetryData.cs
+INITIALIZE_PART: CFSTelemetryDefinition.ApplicationDataAttributes
+INITIALIZE_PART: CFSTelemetryDefinition.PrimaryHeader.ApplicationId
+INITIALIZE_PART: CCSDSTelemetry.Name
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, CFSCommandDefinition.dll
+REFERENCE: True, TelemetryOutputEnableCommand.dll
+REFERENCE: True, CFSTelemetryDefinition.dll
+REFERENCE: True, TelemetrySecondaryHeader.dll
+REFERENCE: True, EventServicesHousekeepingTelemetreyData.dll
+REFERENCE: True, EventServicesApplicationTelemetryData.dll
+REFERENCE: True, EventServicesHousekeepingTelemetery.dll
+REFERENCE: True, ExecutiveServicesHousekeepingTelemetryData.dll

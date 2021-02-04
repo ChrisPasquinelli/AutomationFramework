@@ -1,0 +1,20 @@
+SCHEMATIC: True, CFSTelemetryDefinition.vssx
+CONFIGURE: True, CFSTelemetryDefinition.cs
+INITIALIZE: True, CreateCCSDSPacketDefinition.cs
+INITIALIZE: True, CreateTelemetrySecondaryHeader.cs
+INITIALIZE_PART: CCSDSPacketDefinition.SecondaryHeaderAttributes
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, GES.TimeSystems.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, CFSCommandDefinition.dll
+REFERENCE: True, TelemetrySecondaryHeader.dll

@@ -1,0 +1,39 @@
+SCHEMATIC: True, ATSTableExample.vssx
+CONFIGURE: True, ATSTableExample.cs
+INITIALIZE: True, CreateStart.cs
+INITIALIZE: True, CreateATSSerializer.cs
+INITIALIZE: True, CreateCFSTableDefinition.cs
+INITIALIZE: True, CreateTableSerializer.cs
+INITIALIZE: True, CreateTelemetryOutputEnableCommand.cs
+INITIALIZE_PART: TableSerializer.Filename
+INITIALIZE_PART: TelemetryOutputEnableCommand.StartOffset
+INITIALIZE_PART: CFSTableDefinition.ContentAttributes
+INITIALIZE_PART: CFSTableDefinition.CFETableHeader.TableName
+INITIALIZE_PART: CFSTableDefinition.CFETableHeader.NumBytes
+INITIALIZE_PART: CFSTableDefinition.CFETableHeader.Offset
+INITIALIZE_PART: TableSerializer.PadToSize
+INITIALIZE_PART: ATSSerializer.MissionEpochTime.DateTime
+INITIALIZE_PART: ATSSerializer.StartTime.BaseStandard
+INITIALIZE_PART: ATSSerializer.StartTime.DateTime
+INITIALIZE_PART: ATSSerializer.Mode
+INITIALIZE_PART: TableSerializer.Mode
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, CFSCommandDefinition.dll
+REFERENCE: True, TelemetryOutputEnableCommand.dll
+REFERENCE: True, TableDefinitionTemplate.dll
+REFERENCE: True, CFEFileHeader.dll
+REFERENCE: True, CFETableHeader.dll
+REFERENCE: True, TableLoadCommand.dll
+REFERENCE: True, CFSTableTemplate.dll
+REFERENCE: True, GES.TimeSystems.dll

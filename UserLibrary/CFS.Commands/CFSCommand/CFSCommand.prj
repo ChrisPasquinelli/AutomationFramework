@@ -1,0 +1,25 @@
+SCHEMATIC: True, CFSCommand.vssx
+CONFIGURE: True, CFSCommand.cs
+INITIALIZE: True, CreateCCSDSCommand.cs
+INITIALIZE: True, CreateCCSDSPacketDefinition.cs
+INITIALIZE: True, CreateCommandSecondaryHeader.cs
+INITIALIZE: True, CreateXORChecksum.cs
+INITIALIZE_PART: CCSDSPacketDefinition.SecondaryHeaderAttributes
+INITIALIZE_PART: XORChecksum.ChecksumIndex
+INITIALIZE_PART: XORChecksum.ByteOrder
+INITIALIZE_PART: CCSDSPacketDefinition.PrimaryHeader
+INITIALIZE_PART: XORChecksum.StopIndex
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, GES.TimeSystems.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, CFSCommandDefinition.dll

@@ -1,0 +1,11 @@
+SCHEMATIC: True, EventServicesApplicationTelemetryData.vssx
+CONFIGURE: True, EventServicesApplicationTelemetryData.cs
+INITIALIZE: True, CreateAppID.cs
+INITIALIZE: True, CreateAppMessageSentCounter.cs
+INITIALIZE: True, CreateAppEnableStatus.cs
+INITIALIZE: True, CreatePadding.cs
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll

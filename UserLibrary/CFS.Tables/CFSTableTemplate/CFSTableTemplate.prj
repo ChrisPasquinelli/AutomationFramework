@@ -1,0 +1,24 @@
+SCHEMATIC: True, CFSTableTemplate.vssx
+CONFIGURE: True, CFSTableTemplate.cs
+INITIALIZE: True, CreateCFSTableDefinition.cs
+INITIALIZE: True, CreateTableSerializer.cs
+INITIALIZE_PART: TableSerializer.Filename
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, CFSCommandDefinition.dll
+REFERENCE: True, TelemetryOutputEnableCommand.dll
+REFERENCE: True, TableDefinitionTemplate.dll
+REFERENCE: True, CFEFileHeader.dll
+REFERENCE: True, CFETableHeader.dll
+REFERENCE: True, TableLoadCommand.dll
+REFERENCE: True, GES.TimeSystems.dll

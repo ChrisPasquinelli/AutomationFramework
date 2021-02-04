@@ -1,0 +1,17 @@
+SCHEMATIC: True, CFEFileHeader.vssx
+CONFIGURE: True, CFEFileHeader.cs
+INITIALIZE: True, CreateContentType.cs
+INITIALIZE: True, CreateSubType.cs
+INITIALIZE: True, CreateLength.cs
+INITIALIZE: True, CreateSpacecraftID.cs
+INITIALIZE: True, CreateProcessorID.cs
+INITIALIZE: True, CreateApplicationID.cs
+INITIALIZE: True, CreateTimeSeconds.cs
+INITIALIZE: True, CreateTimeSubseconds.cs
+INITIALIZE: True, CreateDescription.cs
+INITIALIZE_PART: ContentType
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll

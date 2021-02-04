@@ -1,0 +1,24 @@
+SCHEMATIC: True, TelemetryOutputEnableCommand.vssx
+CONFIGURE: True, TelemetryOutputEnableCommand.cs
+INITIALIZE: True, CreateCCSDSCommand.cs
+INITIALIZE: True, CreateCFSCommandDefinition.cs
+INITIALIZE: True, CreateIPAddress.cs
+INITIALIZE_PART: IPAddress
+INITIALIZE_PART: CFSCommandDefinition.CommandSecondaryHeader.FunctionCode
+INITIALIZE_PART: CFSCommandDefinition.ApplicationDataAttributes
+INITIALIZE_PART: CFSCommandDefinition.PrimaryHeader
+INITIALIZE_PART: CFSCommandDefinition.XORChecksum.StopIndex
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
+REFERENCE: True, GES.Communications.dll
+REFERENCE: True, Common.dll
+REFERENCE: True, Mathematics.dll
+REFERENCE: True, Utilities.dll
+REFERENCE: True, Agents.dll
+REFERENCE: True, Logic.dll
+REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, CFSCommandDefinition.dll
+REFERENCE: True, GES.TimeSystems.dll

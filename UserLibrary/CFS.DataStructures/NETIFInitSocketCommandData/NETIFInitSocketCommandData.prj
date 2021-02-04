@@ -1,0 +1,9 @@
+SCHEMATIC: True, NETIFInitSocketCommandData.vssx
+CONFIGURE: True, NETIFInitSocketCommandData.cs
+INITIALIZE: True, CreateServerPort.cs
+INITIALIZE: True, CreateIPAddress.cs
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll

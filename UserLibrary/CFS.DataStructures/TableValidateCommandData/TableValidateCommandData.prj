@@ -1,0 +1,9 @@
+SCHEMATIC: True, TableValidateCommandData.vssx
+CONFIGURE: True, TableValidateCommandData.cs
+INITIALIZE: True, CreateActiveTableFlag.cs
+INITIALIZE: True, CreateTableName.cs
+REFERENCE: True, System.dll
+REFERENCE: True, Core.dll
+REFERENCE: True, System.Design.dll
+REFERENCE: True, AssemblyLoader.dll
+REFERENCE: True, Microsoft.JScript.dll
