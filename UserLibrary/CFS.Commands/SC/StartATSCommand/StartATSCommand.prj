@@ -15,8 +15,6 @@ REFERENCE: True, GES.Communications.dll
 REFERENCE: True, Common.dll
 REFERENCE: True, Mathematics.dll
 REFERENCE: True, Utilities.dll
-REFERENCE: True, Agents.dll
-REFERENCE: True, Logic.dll
 REFERENCE: True, CommandSecondaryHeader.dll
 REFERENCE: True, CFSCommandDefinition.dll
 REFERENCE: True, TelemetryOutputEnableCommand.dll

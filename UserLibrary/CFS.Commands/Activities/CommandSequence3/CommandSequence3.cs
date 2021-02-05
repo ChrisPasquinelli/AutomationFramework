@@ -48,6 +48,16 @@ namespace CFS.Commands {
             this.Connect();
         }
         
+        public new virtual GES.Communications.ICommand[] Commands {
+            get {
+                return base.Commands;
+            }
+            set {
+                base.Commands = value;
+                this.OnPropertyChanged("CommandSequence.Commands");
+            }
+        }
+        
         public virtual CFS.Commands.TelemetryOutputEnableCommand TelemetryOutputEnableCommand1 {
             get {
                 return this._TelemetryOutputEnableCommand1;
@@ -88,9 +98,9 @@ namespace CFS.Commands {
             // 
             // Connects subcomponents into graph 
             // 
-            this.Connect("base.Sequence", "TelemetryOutputEnableCommand1");
-            this.Connect("base.Sequence", "TelemetryOutputEnableCommand2");
-            this.Connect("base.Sequence", "TelemetryOutputEnableCommand3");
+            this.Connect("base.Commands", "TelemetryOutputEnableCommand1");
+            this.Connect("base.Commands", "TelemetryOutputEnableCommand3");
+            this.Connect("base.Commands", "TelemetryOutputEnableCommand2");
         }
         
         public override bool OnInitialize() {

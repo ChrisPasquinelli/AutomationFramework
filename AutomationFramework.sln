@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GES.Communications", "GES\GES.Communications\GES.Communications.csproj", "{FBB715DD-D050-4052-9261-658ACF01AF06}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemLibrary", "SystemLibrary", "{80B540E5-7A2C-494A-83C0-2DA1DC754E99}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{61920958-85CB-4921-A7B9-6F88FE26977C}"
@@ -57,6 +55,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{61920958
 		SystemLibrary\Debug\WeifenLuo.WinFormsUI.Docking.pdb = SystemLibrary\Debug\WeifenLuo.WinFormsUI.Docking.pdb
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GES.TimeSystems", "TimeSystems\GES.TimeSystems.csproj", "{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GES.Communications", "Communications\GES.Communications.csproj", "{FBB715DD-D050-4052-9261-658ACF01AF06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GES.Agents", "Agents\GES.Agents.csproj", "{F350421E-EF62-4FD9-90D6-95137B7DD5D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,34 @@ Global
 		Release|Zune = Release|Zune
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|x64.ActiveCfg = Debug|x64
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|x64.Build.0 = Debug|x64
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Xbox 360.ActiveCfg = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Xbox 360.Build.0 = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Zune.ActiveCfg = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Debug|Zune.Build.0 = Debug|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|ARM.Build.0 = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|x64.ActiveCfg = Release|x64
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|x64.Build.0 = Release|x64
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|x86.Build.0 = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Xbox 360.ActiveCfg = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Xbox 360.Build.0 = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Zune.ActiveCfg = Release|Any CPU
+		{80AF06C8-DE0D-4A4F-BD30-232EECE2DB7E}.Release|Zune.Build.0 = Release|Any CPU
 		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB715DD-D050-4052-9261-658ACF01AF06}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -103,6 +135,34 @@ Global
 		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Xbox 360.Build.0 = Release|Any CPU
 		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Zune.ActiveCfg = Release|Any CPU
 		{FBB715DD-D050-4052-9261-658ACF01AF06}.Release|Zune.Build.0 = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|x64.Build.0 = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|x86.Build.0 = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Xbox 360.ActiveCfg = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Xbox 360.Build.0 = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Zune.ActiveCfg = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Debug|Zune.Build.0 = Debug|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|ARM.Build.0 = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|x64.Build.0 = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|x86.Build.0 = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Xbox 360.ActiveCfg = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Xbox 360.Build.0 = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Zune.ActiveCfg = Release|Any CPU
+		{F350421E-EF62-4FD9-90D6-95137B7DD5D9}.Release|Zune.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

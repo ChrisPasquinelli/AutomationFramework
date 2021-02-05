@@ -18,3 +18,4 @@ REFERENCE: True, Logic.dll
 REFERENCE: True, TelemetryOutputEnableCommand.dll
 REFERENCE: True, CFSCommandDefinition.dll
 REFERENCE: True, CommandSecondaryHeader.dll
+REFERENCE: True, GES.TimeSystems.dll

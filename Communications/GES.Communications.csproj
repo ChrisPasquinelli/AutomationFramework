@@ -32,13 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Common">
-      <HintPath>..\..\SystemLibrary\Debug\Common.dll</HintPath>
+      <HintPath>..\SystemLibrary\Release\Common.dll</HintPath>
     </Reference>
     <Reference Include="Core">
-      <HintPath>..\..\SystemLibrary\Debug\Core.dll</HintPath>
-    </Reference>
-    <Reference Include="GES.TimeSystems">
-      <HintPath>..\..\SystemLibrary\Debug\GES.TimeSystems.dll</HintPath>
+      <HintPath>..\SystemLibrary\Release\Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -87,6 +84,12 @@
     <EmbeddedResource Include="Serialization\SerializerDialog.resx">
       <DependentUpon>SerializerDialog.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeSystems\GES.TimeSystems.csproj">
+      <Project>{80af06c8-de0d-4a4f-bd30-232eece2db7e}</Project>
+      <Name>GES.TimeSystems</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
